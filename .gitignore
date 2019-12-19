@@ -1,0 +1,70 @@
+# ignore lists for git
+
+# that crap emacs generates
+*~
+
+# build directory
+build
+
+# vscode
+.vscode
+
+# object files
+*.slo
+*.lo
+*.o
+*.cuo
+*.obj
+
+# dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# ROOT files
+*.root
+
+# logs
+*.err
+*.log
+*.out
+log
+
+# compiled python
+*.pyc
+*.pyd
+
+# apple DS_Store stuff
+.DS_Store*
+._*
+
+# possible output from analysis scripts
+*png
+*pdf
+
+
+# dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+
+# condor files
+CondorFile
