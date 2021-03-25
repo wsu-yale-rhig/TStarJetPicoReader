@@ -37,7 +37,7 @@ set(PICO_LINKDEF)
 
 # add the source tree
 add_subdirectory(TStarJetPicoReader)
-set(PICO_INCLUDE ${CMAKE_CURRENT_SOURCE_DIR}/TStarJetPico)
+set(PICO_INCLUDE ${CMAKE_CURRENT_SOURCE_DIR}/TStarJetPicoReader)
 include_directories(${PICO_INCLUDE})
 
 # use ROOT to generate the dictionary file
